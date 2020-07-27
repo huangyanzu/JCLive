@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="I6G-Di-L9e">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="GgS-Z1-0DP">
+            <objects>
+                <viewController id="xwr-i7-4og" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ou6-1U-D6e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="TXd-2x-bAd"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WqJ-DY-PjL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bez-v4-IdK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1158" y="1479"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="rb6-16-uds">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="I6G-Di-L9e" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" image="mine-n" selectedImage="mine-p" id="5cY-ZK-xAC"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2XV-OI-O6g">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xwr-i7-4og" kind="relationship" relationship="rootViewController" id="yw5-Hq-b2L"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5kJ-uh-b8F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="246" y="1479"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mine-n" width="25" height="19"/>
+        <image name="mine-p" width="25" height="19"/>
+    </resources>
+</document>
