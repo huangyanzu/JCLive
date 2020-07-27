@@ -18,6 +18,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         UITabBar.appearance().tintColor = UIColor.orange
         
+        UINavigationBar.appearance().barTintColor = .black
+        
+        
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
