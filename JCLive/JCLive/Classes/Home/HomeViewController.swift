@@ -8,15 +8,18 @@
 
 import UIKit
 
+
+
 class HomeViewController: UIViewController {
 
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setupUI()
        
         
-        view.backgroundColor = UIColor.randomColor()
+        view.backgroundColor = UIColor.white
         
     }
     
@@ -28,7 +31,8 @@ extension HomeViewController{
     
     private func setupUI(){
            
-           setupNavigationBar()
+        setupNavigationBar()
+        setupPageView()
            
        }
 
@@ -62,6 +66,32 @@ extension HomeViewController{
         
        }
        
+    private func setupPageView(){
+         
+        let titles = ["A","B","C","D","E"]
+               var  childVcs = [UIViewController]()
+              childVcs.append(RecommendViewController())
+               for _ in 0..<titles.count - 1 {
+                  
+                   let vc = UIViewController()
+                   vc.view.backgroundColor = UIColor.randomColor()
+                   childVcs.append(vc)
+                   
+                   
+               }
+               
+               let style = HJCTitleStyle()
+               //style.titleHeight = 44
+              // style.isScrollEnable = true
+               style.isShowScrollLine = true
+               let pageFrame = CGRect(x: 0, y: 64, width: view.bounds.width, height: view.bounds.height - 64)
+               
+               let pageView =  HJCPageView(frame: pageFrame, titles: titles, childVcs: childVcs, parentVc: self,style: style)
+               
+               view.addSubview(pageView)
+    }
+    
+    
 }
 
 extension HomeViewController{

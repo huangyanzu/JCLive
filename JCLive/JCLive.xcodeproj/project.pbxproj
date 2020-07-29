@@ -14,11 +14,17 @@
 		73B8381324CE725200DECA80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B8381124CE725200DECA80 /* LaunchScreen.storyboard */; };
 		73B8382A24CE7BCC00DECA80 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B8382824CE7BCC00DECA80 /* Home.storyboard */; };
 		73B8382D24CE7C7E00DECA80 /* Rank.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B8382B24CE7C7E00DECA80 /* Rank.storyboard */; };
-		73B8382F24CE7CA300DECA80 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B8382E24CE7CA300DECA80 /* Discover.storyboard */; };
 		73B8383224CE7CB600DECA80 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B8383024CE7CB600DECA80 /* Profile.storyboard */; };
 		73B8383424CE861B00DECA80 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8383324CE861B00DECA80 /* HomeViewController.swift */; };
 		73B8383624CE8CC100DECA80 /* JCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8383524CE8CC100DECA80 /* JCNavigationController.swift */; };
-		73B8383924CE950D00DECA80 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8383824CE950D00DECA80 /* UIColor+Extension.swift */; };
+		73BCC75C24D0831F00A14786 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BCC75A24D0831F00A14786 /* Discover.storyboard */; };
+		73BCC75E24D083FB00A14786 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BCC75D24D083FB00A14786 /* UIColor+Extension.swift */; };
+		73BCC76424D0847F00A14786 /* HJCTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BCC76024D0847F00A14786 /* HJCTitleStyle.swift */; };
+		73BCC76524D0847F00A14786 /* HJCPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BCC76124D0847F00A14786 /* HJCPageView.swift */; };
+		73BCC76624D0847F00A14786 /* HJCContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BCC76224D0847F00A14786 /* HJCContentView.swift */; };
+		73BCC76724D0847F00A14786 /* HJCTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BCC76324D0847F00A14786 /* HJCTitleView.swift */; };
+		73F6EE6024D110EE006E9CF8 /* HJCWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F6EE5F24D110EE006E9CF8 /* HJCWaterfallLayout.swift */; };
+		73F6EE6324D114EA006E9CF8 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F6EE6224D114EA006E9CF8 /* RecommendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +37,17 @@
 		73B8381424CE725200DECA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73B8382924CE7BCC00DECA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = JCLive/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
 		73B8382C24CE7C7E00DECA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = JCLive/Base.lproj/Rank.storyboard; sourceTree = SOURCE_ROOT; };
-		73B8382E24CE7CA300DECA80 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = SOURCE_ROOT; };
 		73B8383124CE7CB600DECA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = JCLive/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
 		73B8383324CE861B00DECA80 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		73B8383524CE8CC100DECA80 /* JCNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCNavigationController.swift; sourceTree = "<group>"; };
-		73B8383824CE950D00DECA80 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		73BCC75B24D0831F00A14786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = JCLive/Base.lproj/Discover.storyboard; sourceTree = SOURCE_ROOT; };
+		73BCC75D24D083FB00A14786 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		73BCC76024D0847F00A14786 /* HJCTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJCTitleStyle.swift; sourceTree = "<group>"; };
+		73BCC76124D0847F00A14786 /* HJCPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJCPageView.swift; sourceTree = "<group>"; };
+		73BCC76224D0847F00A14786 /* HJCContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJCContentView.swift; sourceTree = "<group>"; };
+		73BCC76324D0847F00A14786 /* HJCTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJCTitleView.swift; sourceTree = "<group>"; };
+		73F6EE5F24D110EE006E9CF8 /* HJCWaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJCWaterfallLayout.swift; sourceTree = "<group>"; };
+		73F6EE6224D114EA006E9CF8 /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,9 @@
 		73B8382124CE788900DECA80 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				73F6EE6124D111C2006E9CF8 /* Controller */,
+				73F6EE5F24D110EE006E9CF8 /* HJCWaterfallLayout.swift */,
+				73BCC75F24D0847F00A14786 /* HJCPageView */,
 				73B8382824CE7BCC00DECA80 /* Home.storyboard */,
 				73B8383324CE861B00DECA80 /* HomeViewController.swift */,
 			);
@@ -113,7 +128,7 @@
 		73B8382324CE788900DECA80 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				73B8382E24CE7CA300DECA80 /* Discover.storyboard */,
+				73BCC75A24D0831F00A14786 /* Discover.storyboard */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -152,9 +167,28 @@
 		73B8383724CE94F200DECA80 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				73B8383824CE950D00DECA80 /* UIColor+Extension.swift */,
+				73BCC75D24D083FB00A14786 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		73BCC75F24D0847F00A14786 /* HJCPageView */ = {
+			isa = PBXGroup;
+			children = (
+				73BCC76024D0847F00A14786 /* HJCTitleStyle.swift */,
+				73BCC76124D0847F00A14786 /* HJCPageView.swift */,
+				73BCC76224D0847F00A14786 /* HJCContentView.swift */,
+				73BCC76324D0847F00A14786 /* HJCTitleView.swift */,
+			);
+			path = HJCPageView;
+			sourceTree = "<group>";
+		};
+		73F6EE6124D111C2006E9CF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				73F6EE6224D114EA006E9CF8 /* RecommendViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +254,8 @@
 				73B8381024CE725200DECA80 /* Assets.xcassets in Resources */,
 				73B8380E24CE724F00DECA80 /* Main.storyboard in Resources */,
 				73B8382A24CE7BCC00DECA80 /* Home.storyboard in Resources */,
+				73BCC75C24D0831F00A14786 /* Discover.storyboard in Resources */,
 				73B8383224CE7CB600DECA80 /* Profile.storyboard in Resources */,
-				73B8382F24CE7CA300DECA80 /* Discover.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,11 +266,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73BCC76424D0847F00A14786 /* HJCTitleStyle.swift in Sources */,
+				73BCC76724D0847F00A14786 /* HJCTitleView.swift in Sources */,
 				73B8383624CE8CC100DECA80 /* JCNavigationController.swift in Sources */,
+				73BCC76624D0847F00A14786 /* HJCContentView.swift in Sources */,
 				73B8380724CE724F00DECA80 /* AppDelegate.swift in Sources */,
+				73BCC76524D0847F00A14786 /* HJCPageView.swift in Sources */,
+				73F6EE6024D110EE006E9CF8 /* HJCWaterfallLayout.swift in Sources */,
 				73B8380924CE724F00DECA80 /* SceneDelegate.swift in Sources */,
 				73B8383424CE861B00DECA80 /* HomeViewController.swift in Sources */,
-				73B8383924CE950D00DECA80 /* UIColor+Extension.swift in Sources */,
+				73BCC75E24D083FB00A14786 /* UIColor+Extension.swift in Sources */,
+				73F6EE6324D114EA006E9CF8 /* RecommendViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +321,14 @@
 				73B8383124CE7CB600DECA80 /* Base */,
 			);
 			name = Profile.storyboard;
+			sourceTree = "<group>";
+		};
+		73BCC75A24D0831F00A14786 /* Discover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73BCC75B24D0831F00A14786 /* Base */,
+			);
+			name = Discover.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
